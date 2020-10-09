@@ -1,0 +1,42 @@
+{
+  "name": "saika-code-block-buttons",
+  "description": "Code buttons for Saika",
+  "version": "0.0.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "evillt/saika-code-block-buttons"
+  },
+  "author": "evillt <ijoec123@gmail.com> (https://evila.me)",
+  "main": "dist/index.js",
+  "module": "src/index.js",
+  "files": [
+    "dist/*.js",
+    "src/*.js"
+  ],
+  "scripts": {
+    "prepublishOnly": "npm run build",
+    "build": "bili"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@evillt/copy": "^1.0.3",
+    "bili": "^4.8.1",
+    "feather-icons": "^4.28.0",
+    "husky": "^3.0.5",
+    "lint-staged": "^9.2.5",
+    "prettier": "^1.18.2",
+    "rollup-plugin-svg": "^2.0.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,json,md}": [
+      "prettier --write",
+      "git add"
+    ]
+  }
+}
