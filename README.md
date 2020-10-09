@@ -8,7 +8,7 @@ Please consider starring the project to show your ❤️ and support.
 [![License](https://badgen.net/npm/license/saika-code-block-buttons)](./LICENSE)
 [![donate](https://badgen.net/badge/support%20me/donate/f2a)](https://donate.evila.me)
 
-You can visit the official showcase in [saika codeBlockButtons](https://saika.dev/reference/options#codeblockbuttons-badge-contentsaika-2130-).
+You can visit the official showcase in [saika codeBlockButtons](https://saika.dev/#/reference/options#codeblockbuttons-badge-contentsaika-2130-).
 
 ## Usage
 
