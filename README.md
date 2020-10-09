@@ -8,6 +8,33 @@ Please consider starring the project to show your ❤️ and support.
 [![License](https://badgen.net/npm/license/saika-code-block-buttons)](./LICENSE)
 [![donate](https://badgen.net/badge/support%20me/donate/f2a)](https://donate.evila.me)
 
+You can visit the official showcase in [saika codeBlockButtons](https://saika.dev/reference/options#codeblockbuttons-badge-contentsaika-2130-).
+
+## Usage
+
+Load this via `<script>` tag:
+
+```html
+<!-- Load this after saika.js -->
+<script src="https://cdn.jsdelivr.net/npm/saika-code-block-buttons"></script>
+```
+
+This is exposed as `window.saikaCodeBlockButtons`:
+
+```js
+new Saika({
+  codeBlockButtons: [saikaCodeBlockButtons.copyCode]
+})
+```
+
+## Buttons
+
+### copyCode
+
+Copy the code in code block.
+
+Will add more in future...
+
 ## Contributing
 
 1. Fork it!
